@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <section class="publisidad none">
+    <section id="publi" class="publisidad">
         <div class="publi_title">
             <h3 class="color_text1">Publisidad</h3>
-            <p class="color_text1">x</p>
+            <p id="x" class="color_text1">x</p>
         </div>
         <div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ad accusamus pariatur quidem facilis. Error quos unde fuga ipsam incidunt expedita placeat laudantium tempore. Optio, esse ullam? Distinctio, dolore ipsum?</p>
@@ -33,29 +33,29 @@
         </nav>
     </div>
 
-    <div class="fondo_nav none">
+    <div id="nav" class="fondo_nav none">
         <nav>
             <ul class="nav_buttos">
-                <li class="color_text2">Inicio</li>
-                <li class="color_text2">Ingreso y Registro</li>
+                <li class="title_nav color_text2">Menu</li>
+                <li class="link color_text2">Ingreso y Registro</li>
             </ul>
         </nav>
     </div>
     
     <div class="content_section">
-        <section class="section1 ">
+        <section id="viwer1" class="section1 ">
             <h2 class="section1_title color_text1">Aplicacion de Organisacion de Documentos</h2>
             <div>
                 <p class="color_text2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque delectus ipsum fuga ratione dolorem praesentium? Ipsa, reiciendis dolor accusantium atque explicabo dicta ab totam voluptatibus. Vero laboriosam aliquam perferendis quos.</p>
             </div>
         </section>
-        <section class="section1 section1_animacion">
+        <section id="viwer2" class="section1 none">
             <h2 class="section1_title color_text1">Documentacion</h2>
             <div>
                 <p class="color_text2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque delectus ipsum fuga ratione dolorem praesentium? Ipsa, reiciendis dolor accusantium atque explicabo dicta ab totam voluptatibus. Vero laboriosam aliquam perferendis quos.</p>
             </div>
         </section>
-        <button class="section1_button color_text2">Documentacion</button>
+        <input id="section1Button" class="section1_button color_text2" type="button" value="Documentacion">
     </div>
 
     <div class="content_section2">
@@ -85,5 +85,7 @@
             <h3 class="color_text2">© 2023 Christopher</h3>
         </div>
     </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/codigoIndex.js"></script>
 </body>
 </html>
